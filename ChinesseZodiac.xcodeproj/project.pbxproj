@@ -13,6 +13,7 @@
 		81EF89D823FE79470031AAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EF89D623FE79470031AAA3 /* Main.storyboard */; };
 		81EF89DA23FE79490031AAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EF89D923FE79490031AAA3 /* Assets.xcassets */; };
 		81EF89DD23FE79490031AAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81EF89DB23FE79490031AAA3 /* LaunchScreen.storyboard */; };
+		81EF89E523FE89ED0031AAA3 /* FindYourHoroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF89E423FE89ED0031AAA3 /* FindYourHoroscope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		81EF89D923FE79490031AAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81EF89DC23FE79490031AAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81EF89DE23FE79490031AAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EF89E423FE89ED0031AAA3 /* FindYourHoroscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourHoroscope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				81EF89D223FE79470031AAA3 /* SceneDelegate.swift */,
 				81EF89D423FE79470031AAA3 /* ViewController.swift */,
 				81EF89D623FE79470031AAA3 /* Main.storyboard */,
+				81EF89E423FE89ED0031AAA3 /* FindYourHoroscope.swift */,
 				81EF89D923FE79490031AAA3 /* Assets.xcassets */,
 				81EF89DB23FE79490031AAA3 /* LaunchScreen.storyboard */,
 				81EF89DE23FE79490031AAA3 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EF89E523FE89ED0031AAA3 /* FindYourHoroscope.swift in Sources */,
 				81EF89D523FE79470031AAA3 /* ViewController.swift in Sources */,
 				81EF89D123FE79470031AAA3 /* AppDelegate.swift in Sources */,
 				81EF89D323FE79470031AAA3 /* SceneDelegate.swift in Sources */,
