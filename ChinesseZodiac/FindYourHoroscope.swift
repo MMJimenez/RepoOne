@@ -10,6 +10,8 @@ import Foundation
 
 struct Horoscope {
     
+    
+    
     func yourAnimal(animalNumber: Int) -> String {
         var animalName = " "
         switch animalNumber {
@@ -41,9 +43,9 @@ struct Horoscope {
         return animalName
     }
     
-    var selectedDate = "31/03/1995"
+    //var selectedDate = "31/03/1995"
     
-    func findYourHoroscope() {
+    func findYourHoroscope(selectedDate: Date) {
         
         var animalsCount = 0
         
@@ -57,7 +59,7 @@ struct Horoscope {
                 dateFormatter.locale = Locale(identifier: "sp_SP")
                 dateFormatter.dateFormat = "dd/MM/yyyy"
                 
-                let date = dateFormatter.date(from: selectedDate)!
+                //let date = dateFormatter.date(from: selectedDate)!
                 let minimum = dateFormatter.date(from: horoscopeIntervals[animalsCount][intervalsCount][0])
                 let maximum = dateFormatter.date(from: horoscopeIntervals[animalsCount][intervalsCount][1])
                 
@@ -71,7 +73,7 @@ struct Horoscope {
                     break
                 }
                 
-                if date >= minimumDate && date <= maximunDate /*|| date == minimumDate || date == maximunDate*/ {
+                if selectedDate >= minimumDate && selectedDate <= maximunDate /*|| date == minimumDate || date == maximunDate*/ {
                     print("Your animal is the \(yourAnimal(animalNumber: animalsCount))")
                     break
                 }

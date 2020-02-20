@@ -10,10 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var datePicker: UIDatePicker!
     
-    
-    
-    
+    var zodiac = Horoscope()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +20,11 @@ class ViewController: UIViewController {
     }
     
 //MARK: IBActions
-    
-    @IBAction func datePickerAction(_ sender: UIDatePicker) {
-    }
-   
+
     @IBAction func selectDateButton(_ sender: UIButton) {
-    
+        let date = datePicker.date
+        print(date)
+        zodiac.findYourHoroscope(selectedDate: date)
     }
     
     
