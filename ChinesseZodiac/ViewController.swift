@@ -19,16 +19,18 @@ class ViewController: UIViewController {
         
     }
     
+      override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+          
+          guard let datePicker = segue.destination as? YourAnimalViewController else { return }
+          datePicker.dateRecivedFromPicker = datePickerOutlet.date
+      }
+    
 //MARK: IBActions
 
     @IBAction func selectDateButton(_ sender: UIButton) {
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-        
-        guard let datePicker = segue.destination as? YourAnimalViewController else { return }
-        datePicker.dateRecivedFromPicker = datePickerOutlet.date
-    }
+  
     
     
 }
