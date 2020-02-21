@@ -11,8 +11,12 @@ import UIKit
 class YourAnimalViewController: UIViewController {
     
     
+    @IBOutlet weak var animalmage: UIImageView!
+    @IBOutlet weak var animalNameLabel: UILabel!
+    @IBOutlet weak var animalDescriptionLabel: UILabel!
     
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
