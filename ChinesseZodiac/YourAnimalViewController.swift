@@ -11,7 +11,7 @@ import UIKit
 class YourAnimalViewController: UIViewController {
     
     //MARK: Outlets
-    @IBOutlet weak var animalmage: UIImageView!
+    @IBOutlet weak var animalImage: UIImageView!
     @IBOutlet weak var animalNameLabel: UILabel!
     @IBOutlet weak var animalDescriptionLabel: UILabel!
     //MARK: Internal vars
@@ -23,7 +23,8 @@ class YourAnimalViewController: UIViewController {
         guard let yourAnimalSelected =  yourAnimal.findYourHoroscope(selectedDate: dateRecivedFromPicker) else { return }
         animalNameLabel.text = yourAnimalSelected.name
         animalDescriptionLabel.text = yourAnimalSelected.descriptionText
-
+        animalImage.image = UIImage(named: yourAnimalSelected.imageName)
+        
         // Do any additional setup after loading the view.
     }
     

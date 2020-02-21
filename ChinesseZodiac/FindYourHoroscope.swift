@@ -114,9 +114,10 @@ let ratInterval =       [["19/02/1996", "07/02/1997"],["07/02/2008", "25/01/2009
 
 let horoscopeIntervals = [oxInterval, tigerInterval, hareInterval, dragonInterval, snakeInterval, horseInterval, goatInterval, monkeyInterval, roosterInterval, dogInterval, pigInterval, ratInterval]
 
+
 let ox = Horoscope(name: "Ox", descriptionText:  "ox things", imageName: "oxImage")
 let tiger = Horoscope(name: "Tiger", descriptionText: "tiger things", imageName: "tigerImage")
-let hare = Horoscope(name: "Hare", descriptionText: "hare things", imageName: "hareImage")
+let hare = Horoscope(name: "Hare", descriptionText: hareText, imageName: "hareImage")
 let dragon = Horoscope(name: "Dragon", descriptionText: "dragon things", imageName: "dragonImage")
 let snake = Horoscope(name: "Snake", descriptionText: "snake things", imageName: "snakeImage")
 let horse = Horoscope(name: "horse", descriptionText: "horse things", imageName: "horseImage")
@@ -126,3 +127,6 @@ let rooster = Horoscope(name: "Rooster", descriptionText: "rooster things", imag
 let dog = Horoscope(name: "Dog", descriptionText: "dog things", imageName: "dogImage")
 let pig = Horoscope(name: "Pig", descriptionText: "pig things", imageName: "pigImage")
 let rat = Horoscope(name: "Rat", descriptionText: "rat things", imageName: "ratImage")
+
+let hareText = "hare things"
+
