@@ -22,9 +22,6 @@ class ViewController: UIViewController {
 //MARK: IBActions
 
     @IBAction func selectDateButton(_ sender: UIButton) {
-        let date = datePickerOutlet.date
-        //print(date)
-       //zodiac.findYourHoroscope(selectedDate: date)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){

@@ -20,7 +20,9 @@ class YourAnimalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         guard let yourAnimalSelected =  yourAnimal.findYourHoroscope(selectedDate: dateRecivedFromPicker) else { return }
+        
         animalNameLabel.text = yourAnimalSelected.name
         animalDescriptionLabel.text = yourAnimalSelected.descriptionText
         animalImage.image = UIImage(named: yourAnimalSelected.imageName)
