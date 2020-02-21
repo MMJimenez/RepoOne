@@ -15,9 +15,10 @@ import Foundation
 struct Horoscope {
    
     var name = " "
-    //var animal: animalHoroscope
     var descriptionText = " "
     var imageName = " "
+    var firstAnimalCompatible = 0
+    var secondAnimalCompatible = 0
     
     func yourAnimal(animalNumber: Int) -> Horoscope {
         var yourAnimalInstance: Horoscope
@@ -115,18 +116,18 @@ let ratInterval =       [["19/02/1996", "07/02/1997"],["07/02/2008", "25/01/2009
 let horoscopeIntervals = [oxInterval, tigerInterval, hareInterval, dragonInterval, snakeInterval, horseInterval, goatInterval, monkeyInterval, roosterInterval, dogInterval, pigInterval, ratInterval]
 
 
-let ox = Horoscope(name: "Ox", descriptionText:  "ox things", imageName: "oxImage")
-let tiger = Horoscope(name: "Tiger", descriptionText: "tiger things", imageName: "tigerImage")
-let hare = Horoscope(name: "Hare", descriptionText: hareText, imageName: "hareImage")
-let dragon = Horoscope(name: "Dragon", descriptionText: "dragon things", imageName: "dragonImage")
-let snake = Horoscope(name: "Snake", descriptionText: "snake things", imageName: "snakeImage")
-let horse = Horoscope(name: "horse", descriptionText: "horse things", imageName: "horseImage")
-let goat = Horoscope(name: "Goat", descriptionText: "goat things", imageName: "goatImage")
-let monkey = Horoscope(name: "Monkey", descriptionText: "monkey things", imageName: "monkeyImage")
-let rooster = Horoscope(name: "Rooster", descriptionText: "rooster things", imageName: "roosterImage")
-let dog = Horoscope(name: "Dog", descriptionText: "dog things", imageName: "dogImage")
-let pig = Horoscope(name: "Pig", descriptionText: "pig things", imageName: "pigImage")
-let rat = Horoscope(name: "Rat", descriptionText: "rat things", imageName: "ratImage")
+let ox = Horoscope(name: "Ox", descriptionText:  "ox things", imageName: "oxImage", firstAnimalCompatible: 4, secondAnimalCompatible: 8)
+let tiger = Horoscope(name: "Tiger", descriptionText: "tiger things", imageName: "tigerImage", firstAnimalCompatible: 5, secondAnimalCompatible: 9)
+let hare = Horoscope(name: "Hare", descriptionText: hareText, imageName: "hareImage", firstAnimalCompatible: 10, secondAnimalCompatible: 6)
+let dragon = Horoscope(name: "Dragon", descriptionText: "dragon things", imageName: "dragonImage", firstAnimalCompatible: 11, secondAnimalCompatible: 7)
+let snake = Horoscope(name: "Snake", descriptionText: "snake things", imageName: "snakeImage",  firstAnimalCompatible: 8, secondAnimalCompatible: 0)
+let horse = Horoscope(name: "horse", descriptionText: "horse things", imageName: "horseImage",  firstAnimalCompatible: 1, secondAnimalCompatible: 9)
+let goat = Horoscope(name: "Goat", descriptionText: "goat things", imageName: "goatImage", firstAnimalCompatible: 10, secondAnimalCompatible: 2)
+let monkey = Horoscope(name: "Monkey", descriptionText: "monkey things", imageName: "monkeyImage", firstAnimalCompatible: 11, secondAnimalCompatible: 3)
+let rooster = Horoscope(name: "Rooster", descriptionText: "rooster things", imageName: "roosterImage", firstAnimalCompatible: 4, secondAnimalCompatible: 0)
+let dog = Horoscope(name: "Dog", descriptionText: "dog things", imageName: "dogImage", firstAnimalCompatible: 1, secondAnimalCompatible: 5)
+let pig = Horoscope(name: "Pig", descriptionText: "pig things", imageName: "pigImage", firstAnimalCompatible: 2, secondAnimalCompatible: 6)
+let rat = Horoscope(name: "Rat", descriptionText: "rat things", imageName: "ratImage", firstAnimalCompatible: 3, secondAnimalCompatible: 7)
 
 let hareText = "hare things"
 

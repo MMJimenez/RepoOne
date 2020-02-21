@@ -27,7 +27,7 @@ class YourAnimalViewController: UIViewController {
         animalDescriptionLabel.text = yourAnimalSelected.descriptionText
         animalImage.image = UIImage(named: yourAnimalSelected.imageName)
         
-        // Do any additional setup after loading the view.
+        
     }
     
 

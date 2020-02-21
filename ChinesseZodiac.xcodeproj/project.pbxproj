@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81E7981D23FFCF7200629333 /* YourAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E7981C23FFCF7200629333 /* YourAnimalViewController.swift */; };
+		81E7982124000A1800629333 /* CompatiblesAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E7982024000A1800629333 /* CompatiblesAnimalsViewController.swift */; };
 		81EF89D123FE79470031AAA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF89D023FE79470031AAA3 /* AppDelegate.swift */; };
 		81EF89D323FE79470031AAA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF89D223FE79470031AAA3 /* SceneDelegate.swift */; };
 		81EF89D523FE79470031AAA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EF89D423FE79470031AAA3 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		81E7981C23FFCF7200629333 /* YourAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourAnimalViewController.swift; sourceTree = "<group>"; };
+		81E7982024000A1800629333 /* CompatiblesAnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatiblesAnimalsViewController.swift; sourceTree = "<group>"; };
 		81EF89CD23FE79470031AAA3 /* ChinesseZodiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinesseZodiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EF89D023FE79470031AAA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81EF89D223FE79470031AAA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				81EF89D223FE79470031AAA3 /* SceneDelegate.swift */,
 				81EF89D423FE79470031AAA3 /* ViewController.swift */,
 				81EF89D623FE79470031AAA3 /* Main.storyboard */,
+				81E7982024000A1800629333 /* CompatiblesAnimalsViewController.swift */,
 				81E7981C23FFCF7200629333 /* YourAnimalViewController.swift */,
 				81EF89E423FE89ED0031AAA3 /* FindYourHoroscope.swift */,
 				81EF89D923FE79490031AAA3 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				81EF89E523FE89ED0031AAA3 /* FindYourHoroscope.swift in Sources */,
 				81EF89D523FE79470031AAA3 /* ViewController.swift in Sources */,
+				81E7982124000A1800629333 /* CompatiblesAnimalsViewController.swift in Sources */,
 				81E7981D23FFCF7200629333 /* YourAnimalViewController.swift in Sources */,
 				81EF89D123FE79470031AAA3 /* AppDelegate.swift in Sources */,
 				81EF89D323FE79470031AAA3 /* SceneDelegate.swift in Sources */,
