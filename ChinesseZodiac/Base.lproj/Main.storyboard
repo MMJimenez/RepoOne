@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="1053.6231884057972" y="119.86607142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Compatibles Animals View Controller-->
         <scene sceneID="RV4-hv-B6F">
             <objects>
-                <viewController id="dHX-sa-chZ" sceneMemberID="viewController">
+                <viewController id="dHX-sa-chZ" customClass="CompatiblesAnimalsViewController" customModule="ChinesseZodiac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mR6-Ic-hHl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

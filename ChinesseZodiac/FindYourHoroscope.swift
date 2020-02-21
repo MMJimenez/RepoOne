@@ -96,6 +96,10 @@ struct Horoscope {
       return yourAnimalFinded
     }
     
+    func getYourCompatibleAnimal (animalIdentifier: Int) -> Horoscope {
+        let compatibleAnimal = yourAnimal(animalNumber: animalIdentifier)
+        return compatibleAnimal
+    }
     
     
 }
