@@ -58,17 +58,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WoodBackground03" translatesAutoresizingMaskIntoConstraints="NO" id="qja-vg-buI" userLabel="Image Background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNE-Iq-IYA">
-                                <rect key="frame" x="132" y="354" width="123" height="49"/>
+                                <rect key="frame" x="66" y="354" width="296" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="41"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IS-Lj-w9a">
-                                <rect key="frame" x="94" y="329" width="255" height="449"/>
+                                <rect key="frame" x="94" y="432" width="255" height="346"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -78,6 +81,12 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qja-vg-buI" secondAttribute="bottom" constant="-10" id="1Hr-3I-zhW"/>
+                            <constraint firstItem="qja-vg-buI" firstAttribute="leading" secondItem="Hly-Um-6aP" secondAttribute="leading" id="4PZ-ud-yJX"/>
+                            <constraint firstItem="qja-vg-buI" firstAttribute="trailing" secondItem="Hly-Um-6aP" secondAttribute="trailing" id="I2b-f7-4uH"/>
+                            <constraint firstItem="qja-vg-buI" firstAttribute="top" secondItem="Hly-Um-6aP" secondAttribute="top" id="wv8-d3-OEq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Hly-Um-6aP"/>
                     </view>
                     <connections>
@@ -92,6 +101,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="WoodBackground03" width="243" height="477"/>
         <image name="hareImage" width="1181" height="1181"/>
     </resources>
 </document>
