@@ -8,42 +8,49 @@
 
 import Foundation
 
+/*enum animalHoroscope {
+    case ox, tigur, hare, dragon, snake, horse, goat, monkey, rooster, dog, pig, rat
+}*/
+
 struct Horoscope {
+   
+    var name = " "
+    //var animal: animalHoroscope
+    var descriptionText = " "
+    var imageName = " "
     
-    
-    
-    func yourAnimal(animalNumber: Int) -> String {
-        var animalName = " "
+    func yourAnimal(animalNumber: Int) -> Horoscope {
+        var yourAnimalInstance: Horoscope
         switch animalNumber {
+            
         case 0:
-            animalName = "ox"
+            yourAnimalInstance = ox
         case 1:
-            animalName = "tiger"
+            yourAnimalInstance = tiger
         case 2:
-            animalName = "hare"
+            yourAnimalInstance = hare
         case 3:
-            animalName = "dragon"
+            yourAnimalInstance = dragon
         case 4:
-            animalName = "snake"
+            yourAnimalInstance = snake
         case 5:
-            animalName = "horse"
+            yourAnimalInstance = horse
         case 6:
-            animalName = "goat"
+            yourAnimalInstance = goat
         case 7:
-            animalName = "monkey"
+            yourAnimalInstance = monkey
         case 8:
-            animalName = "rooster"
+            yourAnimalInstance = rooster
         case 9:
-            animalName = "dog"
+            yourAnimalInstance = dog
         case 10:
-            animalName = "pig"
+            yourAnimalInstance = pig
         default:
-            animalName = "rat"
+            yourAnimalInstance = rat
         }
-        return animalName
-    }
     
-    //var selectedDate = "31/03/1995"
+        return yourAnimalInstance
+    }
     
     func findYourHoroscope(selectedDate: Date) {
         
@@ -73,8 +80,10 @@ struct Horoscope {
                     break
                 }
                 
-                if selectedDate >= minimumDate && selectedDate <= maximunDate /*|| date == minimumDate || date == maximunDate*/ {
-                    print("Your animal is the \(yourAnimal(animalNumber: animalsCount))")
+                if selectedDate >= minimumDate && selectedDate <= maximunDate {
+                    print(yourAnimal(animalNumber: animalsCount).name)
+                    print("And your do \(yourAnimal(animalNumber: animalsCount).descriptionText)")
+                    
                     break
                 }
                 
@@ -100,3 +109,16 @@ let pigInterval =       [["31/01/1995", "18/02/1996"],["18/02/2007", "06/02/2008
 let ratInterval =       [["19/02/1996", "07/02/1997"],["07/02/2008", "25/01/2009"]]
 
 let horoscopeIntervals = [oxInterval, tigerInterval, hareInterval, dragonInterval, snakeInterval, horseInterval, goatInterval, monkeyInterval, roosterInterval, dogInterval, pigInterval, ratInterval]
+
+let ox = Horoscope(name: "Ox", descriptionText:  "ox things", imageName: "oxImage")
+let tiger = Horoscope(name: "Tiger", descriptionText: "tiger things", imageName: "tigerImage")
+let hare = Horoscope(name: "Hare", descriptionText: "hare things", imageName: "hareImage")
+let dragon = Horoscope(name: "Dragon", descriptionText: "dragon things", imageName: "dragonImage")
+let snake = Horoscope(name: "Snake", descriptionText: "snake things", imageName: "snakeImage")
+let horse = Horoscope(name: "horse", descriptionText: "horse things", imageName: "horseImage")
+let goat = Horoscope(name: "Goat", descriptionText: "goat things", imageName: "goatImage")
+let monkey = Horoscope(name: "Monkey", descriptionText: "monkey things", imageName: "monkeyImage")
+let rooster = Horoscope(name: "Rooster", descriptionText: "rooster things", imageName: "roosterImage")
+let dog = Horoscope(name: "Dog", descriptionText: "dog things", imageName: "dogImage")
+let pig = Horoscope(name: "Pig", descriptionText: "pig things", imageName: "pigImage")
+let rat = Horoscope(name: "Rat", descriptionText: "rat things", imageName: "ratImage")
