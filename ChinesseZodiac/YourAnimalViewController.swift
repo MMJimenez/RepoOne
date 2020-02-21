@@ -10,15 +10,19 @@ import UIKit
 
 class YourAnimalViewController: UIViewController {
     
-    
+    //MARK: Outlets
     @IBOutlet weak var animalmage: UIImageView!
     @IBOutlet weak var animalNameLabel: UILabel!
     @IBOutlet weak var animalDescriptionLabel: UILabel!
-    
-    
+    //MARK: Internal vars
+    var yourAnimal = Horoscope()
+    var dateRecivedFromPicker: Date = Date()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        guard let yourAnimalSelected =  yourAnimal.findYourHoroscope(selectedDate: dateRecivedFromPicker) else { return }
+        animalNameLabel.text = yourAnimalSelected.name
+        animalDescriptionLabel.text = yourAnimalSelected.descriptionText
 
         // Do any additional setup after loading the view.
     }

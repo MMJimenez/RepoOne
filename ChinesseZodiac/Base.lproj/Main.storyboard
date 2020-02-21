@@ -43,7 +43,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="datePicker" destination="CgP-3t-9OY" id="GkY-Rt-cSk"/>
+                        <outlet property="datePickerOutlet" destination="CgP-3t-9OY" id="GkY-Rt-cSk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

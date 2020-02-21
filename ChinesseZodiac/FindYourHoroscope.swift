@@ -52,8 +52,8 @@ struct Horoscope {
         return yourAnimalInstance
     }
     
-    func findYourHoroscope(selectedDate: Date) {
-        
+    func findYourHoroscope(selectedDate: Date) -> Horoscope? {
+        var yourAnimalFinded: Horoscope? = nil
         var animalsCount = 0
         
         for _ in horoscopeIntervals.enumerated() {
@@ -81,6 +81,7 @@ struct Horoscope {
                 }
                 
                 if selectedDate >= minimumDate && selectedDate <= maximunDate {
+                    yourAnimalFinded = yourAnimal(animalNumber: animalsCount)
                     print(yourAnimal(animalNumber: animalsCount).name)
                     print("And your do \(yourAnimal(animalNumber: animalsCount).descriptionText)")
                     
@@ -91,8 +92,11 @@ struct Horoscope {
             }
             animalsCount += 1
         }
-        
+      return yourAnimalFinded
     }
+    
+    
+    
 }
 
 let oxInterval =        [["20/02/1985", "08/02/1986"],["08/02/1997", "27/01/1998"]]
