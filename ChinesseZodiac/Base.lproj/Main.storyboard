@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -61,7 +61,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood01" translatesAutoresizingMaskIntoConstraints="NO" id="qja-vg-buI" userLabel="Image Background">
                                 <rect key="frame" x="0.0" y="0.0" width="414.00000000000011" height="852"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNE-Iq-IYA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monkey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNE-Iq-IYA">
                                 <rect key="frame" x="20" y="257" width="374" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="cnF-g8-PYW"/>
@@ -70,13 +70,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IS-Lj-w9a">
-                                <rect key="frame" x="20" y="326" width="374" height="279.5"/>
-                                <mutableString key="text">"In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position."</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEL-Rt-pl4">
+                                <rect key="frame" x="20" y="20" width="26" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="7Y1-rn-Fvy"/>
+                                    <constraint firstAttribute="width" constant="26" id="qj7-e3-GJp"/>
+                                </constraints>
+                                <state key="normal" image="icons8-back-26">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YV2-4v-lzZ">
                                 <rect key="frame" x="20" y="778" width="374" height="30"/>
                                 <constraints>
@@ -90,19 +93,20 @@
                                     <segue destination="dHX-sa-chZ" kind="presentation" id="Aft-qx-kIf"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hareImage" translatesAutoresizingMaskIntoConstraints="NO" id="mPN-8k-oXp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monkeyImage" translatesAutoresizingMaskIntoConstraints="NO" id="mPN-8k-oXp">
                                 <rect key="frame" x="68" y="20" width="278" height="229"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="278" id="AJJ-Nd-Ycs"/>
                                     <constraint firstAttribute="height" constant="229" id="IHN-Ff-kA0"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEL-Rt-pl4">
-                                <rect key="frame" x="20" y="20" width="26" height="26"/>
-                                <state key="normal" image="icons8-back-26">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IS-Lj-w9a">
+                                <rect key="frame" x="20" y="326" width="374" height="279.33333333333326"/>
+                                <mutableString key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -147,45 +151,50 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood02" translatesAutoresizingMaskIntoConstraints="NO" id="cTg-N4-lW1">
                                 <rect key="frame" x="0.0" y="0.0" width="414.00000000000011" height="852"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rlV-YP-A6U">
-                                <rect key="frame" x="20" y="441" width="158" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monkeyImage" translatesAutoresizingMaskIntoConstraints="NO" id="rlV-YP-A6U">
+                                <rect key="frame" x="68" y="481" width="278" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aob-fc-jvQ">
-                                <rect key="frame" x="20" y="83" width="158" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="monkeyImage" translatesAutoresizingMaskIntoConstraints="NO" id="aob-fc-jvQ">
+                                <rect key="frame" x="68" y="116" width="278" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oQ-rE-hMk">
-                                <rect key="frame" x="20" y="219" width="158" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monkey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oQ-rE-hMk">
+                                <rect key="frame" x="97" y="20" width="220" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFs-Al-dzo">
-                                <rect key="frame" x="212" y="83" width="170" height="221"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFs-Al-dzo">
+                                <rect key="frame" x="20" y="65" width="374" height="331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <mutableString key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydW-4E-HNL">
-                                <rect key="frame" x="218" y="442" width="158" height="309"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4L-Gx-IQQ">
-                                <rect key="frame" x="336" y="20" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4L-Gx-IQQ">
+                                <rect key="frame" x="20" y="20" width="26" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="26" id="3rG-jZ-xwe"/>
+                                    <constraint firstAttribute="height" constant="26" id="FEn-N7-2RE"/>
+                                </constraints>
+                                <state key="normal" image="icons8-back-26">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzc-Z3-Bof">
-                                <rect key="frame" x="20" y="588" width="158" height="85"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzc-Z3-Bof">
+                                <rect key="frame" x="97" y="408" width="220" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydW-4E-HNL">
+                                <rect key="frame" x="20" y="453" width="374" height="331"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -194,6 +203,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="cTg-N4-lW1" firstAttribute="top" secondItem="ocz-qg-UAb" secondAttribute="top" id="69D-c9-Xoo"/>
+                            <constraint firstItem="f4L-Gx-IQQ" firstAttribute="top" secondItem="ocz-qg-UAb" secondAttribute="top" constant="20" id="Dot-Uc-3FE"/>
+                            <constraint firstItem="f4L-Gx-IQQ" firstAttribute="leading" secondItem="ocz-qg-UAb" secondAttribute="leading" constant="20" id="Du9-Hr-BgP"/>
                             <constraint firstAttribute="bottom" secondItem="cTg-N4-lW1" secondAttribute="bottom" constant="-10" id="RqK-Dc-mIK"/>
                             <constraint firstItem="cTg-N4-lW1" firstAttribute="trailing" secondItem="ocz-qg-UAb" secondAttribute="trailing" id="cBA-am-NLj"/>
                             <constraint firstItem="cTg-N4-lW1" firstAttribute="leading" secondItem="ocz-qg-UAb" secondAttribute="leading" id="mSf-m4-XI1"/>
@@ -217,7 +228,7 @@
     <resources>
         <image name="Wood01" width="498" height="476"/>
         <image name="Wood02" width="498" height="476"/>
-        <image name="hareImage" width="1181" height="1181"/>
         <image name="icons8-back-26" width="26" height="26"/>
+        <image name="monkeyImage" width="1181" height="1181"/>
     </resources>
 </document>
