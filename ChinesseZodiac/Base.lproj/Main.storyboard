@@ -96,7 +96,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood01" translatesAutoresizingMaskIntoConstraints="NO" id="qja-vg-buI" userLabel="Image Background">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood4" translatesAutoresizingMaskIntoConstraints="NO" id="qja-vg-buI" userLabel="Image Background">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monkey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNE-Iq-IYA">
@@ -187,7 +187,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood02" translatesAutoresizingMaskIntoConstraints="NO" id="cTg-N4-lW1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood5" translatesAutoresizingMaskIntoConstraints="NO" id="cTg-N4-lW1">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monkeyImage" translatesAutoresizingMaskIntoConstraints="NO" id="rlV-YP-A6U">
@@ -287,8 +287,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Wood01" width="498" height="476"/>
-        <image name="Wood02" width="498" height="476"/>
+        <image name="Wood4" width="450" height="900"/>
+        <image name="Wood5" width="450" height="900"/>
         <image name="YingYang" width="993" height="999"/>
         <image name="icons8-back-26" width="26" height="26"/>
         <image name="icons8-slide-up-50" width="50" height="50"/>
