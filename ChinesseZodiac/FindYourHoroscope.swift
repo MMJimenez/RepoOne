@@ -8,12 +8,8 @@
 
 import Foundation
 
-/*enum animalHoroscope {
-    case ox, tigur, hare, dragon, snake, horse, goat, monkey, rooster, dog, pig, rat
-}*/
-
 struct Horoscope {
-   
+    
     var name = " "
     var descriptionText = " "
     var imageName = " "
@@ -49,7 +45,7 @@ struct Horoscope {
         default:
             yourAnimalInstance = rat
         }
-    
+        
         return yourAnimalInstance
     }
     
@@ -67,7 +63,6 @@ struct Horoscope {
                 dateFormatter.locale = Locale(identifier: "sp_SP")
                 dateFormatter.dateFormat = "dd/MM/yyyy"
                 
-                //let date = dateFormatter.date(from: selectedDate)!
                 let minimum = dateFormatter.date(from: horoscopeIntervals[animalsCount][intervalsCount][0])
                 let maximum = dateFormatter.date(from: horoscopeIntervals[animalsCount][intervalsCount][1])
                 
@@ -88,20 +83,17 @@ struct Horoscope {
                     
                     break
                 }
-                
                 intervalsCount += 1
             }
             animalsCount += 1
         }
-      return yourAnimalFinded
+        return yourAnimalFinded
     }
     
     func getYourCompatibleAnimal (animalIdentifier: Int) -> Horoscope {
         let compatibleAnimal = yourAnimal(animalNumber: animalIdentifier)
         return compatibleAnimal
     }
-    
-    
 }
 
 enum Strengths: String {
@@ -110,7 +102,6 @@ enum Strengths: String {
 enum Weaknesses: String {
     case stubborn, petty, egotistical, judgmental, acquisitiveness, ruthlessness, nervousness, aggressive, arrogant, anxious, pessimistic, insecure, vain, finicky, impetuous, inflexible, brash, hedonistic, malicious, duplicitous, impatient, impulsive, disorganized, lazy, timid, indecisive, gullible, distrustful, opportunistic, erratic, manipulative, dishonest, controlling, insensitive, selfish, reckless, cynical, paranoid, materialistic
 }
-
 
 let oxInterval =        [["20/02/1985", "08/02/1986"],["08/02/1997", "27/01/1998"]]
 let tigerInterval =     [["09/02/1986", "28/01/1987"],["28/01/1998", "15/02/1999"]]
@@ -126,7 +117,6 @@ let pigInterval =       [["31/01/1995", "18/02/1996"],["18/02/2007", "06/02/2008
 let ratInterval =       [["19/02/1996", "07/02/1997"],["07/02/2008", "25/01/2009"]]
 
 let horoscopeIntervals = [oxInterval, tigerInterval, hareInterval, dragonInterval, snakeInterval, horseInterval, goatInterval, monkeyInterval, roosterInterval, dogInterval, pigInterval, ratInterval]
-
 
 let ox = Horoscope(name: "Ox", descriptionText:  oxText, imageName: "oxImage", firstAnimalCompatible: 4, secondAnimalCompatible: 8)
 let tiger = Horoscope(name: "Tiger", descriptionText: tigerText, imageName: "tigerImage", firstAnimalCompatible: 5, secondAnimalCompatible: 9)

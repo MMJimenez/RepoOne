@@ -18,11 +18,11 @@ class YourAnimalViewController: UIViewController {
     //MARK: Internal vars
     var yourAnimal = Horoscope()
     var dateRecivedFromPicker: Date = Date()
-   
+    
     //MARK: Livecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         guard let yourAnimalSelected =  yourAnimal.findYourHoroscope(selectedDate: dateRecivedFromPicker) else { return }
         
         animalNameLabel.text = yourAnimalSelected.name

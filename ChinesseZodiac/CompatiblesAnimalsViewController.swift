@@ -9,9 +9,8 @@
 import UIKit
 
 class CompatiblesAnimalsViewController: UIViewController {
-
-    //MARK: Outlets
     
+    //MARK: Outlets
     @IBOutlet weak var firstAnimalImage: UIImageView!
     @IBOutlet weak var firstAnimalName: UILabel!
     @IBOutlet weak var firstAnimalDescription: UILabel!
@@ -29,7 +28,7 @@ class CompatiblesAnimalsViewController: UIViewController {
     //MARK: Livecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         firstAnimalImage.image = UIImage(named: receivedAnimal.getYourCompatibleAnimal(animalIdentifier: receivedAnimal.firstAnimalCompatible).imageName)
         
         firstAnimalName.text = receivedAnimal.getYourCompatibleAnimal(animalIdentifier: receivedAnimal.firstAnimalCompatible).name
