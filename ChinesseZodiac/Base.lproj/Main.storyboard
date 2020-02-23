@@ -168,6 +168,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Hly-Um-6aP"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jyj-6x-MXB"/>
                     <connections>
                         <outlet property="animalDescriptionLabel" destination="6IS-Lj-w9a" id="IBw-b1-NHy"/>
                         <outlet property="animalImage" destination="mPN-8k-oXp" id="TQ7-gh-qlW"/>
