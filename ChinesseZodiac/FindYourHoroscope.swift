@@ -104,9 +104,10 @@ struct Horoscope {
     
 }
 
-/*enum animalstraits {
-    case <#case#>
-}*/
+enum animalsStrengths: String {
+    case honest = "honest"
+    case contemplative, observant, determined, cautious, loyal, wise, unique, intelligent, crafty, inventive, intense, outspoken, adventurous, unconventional, enthusiastic, intuitive, evenTempered, gentle, faithful, compassionate, clever, courageous, charismatic, passionate, enigmatic, sympathetic, mesmerizing, sensual, beautiful, virile, easygoing, witty, romantic, charming, confident, humorous, exuberant, popular, blunt, capable, talented, brave, selfReliant, animated, likable, sincere, cooperative, protective, helpful, thoughtful, creative, responsible, curious, noble
+}
 
 
 
