@@ -31,11 +31,11 @@
                             </button>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgP-3t-9OY">
                                 <rect key="frame" x="0.0" y="588" width="414" height="216"/>
-                                <date key="date" timeIntervalSinceReferenceDate="254574000.80619395">
-                                    <!--2009-01-25 11:00:00 +0000-->
+                                <date key="date" timeIntervalSinceReferenceDate="-2016104399.1938062">
+                                    <!--1937-02-11 11:00:00 +0000-->
                                 </date>
-                                <date key="minimumDate" timeIntervalSinceReferenceDate="-500562000">
-                                    <!--1985-02-20 11:00:00 +0000-->
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-2016104400">
+                                    <!--1937-02-11 11:00:00 +0000-->
                                 </date>
                                 <date key="maximumDate" timeIntervalSinceReferenceDate="254574000">
                                     <!--2009-01-25 11:00:00 +0000-->
