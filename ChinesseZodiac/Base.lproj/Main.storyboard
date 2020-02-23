@@ -97,7 +97,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood01" translatesAutoresizingMaskIntoConstraints="NO" id="qja-vg-buI" userLabel="Image Background">
-                                <rect key="frame" x="0.0" y="0.0" width="414.00000000000011" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monkey" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNE-Iq-IYA">
                                 <rect key="frame" x="20" y="257" width="374" height="61"/>
@@ -140,7 +140,7 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IS-Lj-w9a">
                                 <rect key="frame" x="20" y="326" width="374" height="320"/>
-                                <mutableString key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</mutableString>
+                                <string key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</string>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -188,7 +188,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wood02" translatesAutoresizingMaskIntoConstraints="NO" id="cTg-N4-lW1">
-                                <rect key="frame" x="0.0" y="0.0" width="414.00000000000011" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monkeyImage" translatesAutoresizingMaskIntoConstraints="NO" id="rlV-YP-A6U">
                                 <rect key="frame" x="68" y="481" width="278" height="229"/>
@@ -212,7 +212,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFs-Al-dzo">
                                 <rect key="frame" x="20" y="65" width="374" height="320"/>
-                                <mutableString key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</mutableString>
+                                <string key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</string>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -235,7 +235,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydW-4E-HNL">
                                 <rect key="frame" x="20" y="455" width="374" height="320"/>
-                                <mutableString key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</mutableString>
+                                <string key="text">In the great race that secured their spots in the Zodiac, it’s said that Rooster, Sheep, and Monkey worked together to cross the finish line. Rooster found a raft, then Monkey and Sheep cleared it of weeds and carried it to the water. (Of course you’d want Monkey in on any plan, because not only are they great fun, but Monkeys can also figure out how to untangle anything and keep everyone’s energy centered and moving forward.) The three animals sailed the raft to the opposite shore and crossed the finish line together. Monkey was accorded the ninth position.</string>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
